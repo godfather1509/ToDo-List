@@ -2,14 +2,6 @@
 {% block title %}Home{% endblock title %}
 {% block body %}
 
-<!-- Jinja is templating engine for Python main purpose is to allow you to inject dynamic data into HTML templates, 
- generate text files, and create more complex templates.-->
-
-<!-- this is template inheritance is one of the core features of Jinja, and it allows you to create a base template that other templates
-  can inherit from. This is particularly useful for maintaining a consistent layout across multiple pages in a web application, 
-  while allowing each page to customize certain parts of the layout.  -->
-
-
 <!-- for forms -->
 <div class="container" id="forms">
     <!-- this is bootstrap classes if we want our form to take up whole web page use 'container-fluid' class and if we want 
@@ -100,12 +92,3 @@
                 flatpickr("#time", dateTimeFormat);
             </script>
             {% endblock body %}
-
-
-            <!--
-here base.html file holds only nav bar and CSS and serves as parent class to index.html and base.html
-index.html holds form submission and to do table
-update.html holds update logic of code
-app.py serves as backend to all 3 files 
-
--->
