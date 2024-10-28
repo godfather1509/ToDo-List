@@ -134,6 +134,7 @@ def backgroundRender():
 if __name__ == "__main__":
     with app.app_context():
         db.create_all()
+        # this creates database in insstance folder
     app.run(debug=True, port=1500)
 
 # We are setting up a Flask web application and configuring it to use a SQLite database. Here's a breakdown of what each line does:
